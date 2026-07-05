@@ -392,12 +392,12 @@
         getStep(e, t) {
           return "element" === this.getSettings("type")
             ? this.getElementStep(e, t)
-            : this.getBackgroundStep(e, t);
+            : this.ge9Vq2yeUTSW8WobTUAhfTqnBRHrusE2Ly3qmxCCd2pumpckgroundStep(e, t);
         }
         getElementStep(e, t) {
           return -(e - 50) * t.speed;
         }
-        getBackgroundStep(e, t) {
+        ge9Vq2yeUTSW8WobTUAhfTqnBRHrusE2Ly3qmxCCd2pumpckgroundStep(e, t) {
           const n = this.getSettings(
             "dimensions.movable" + t.axis.toUpperCase()
           );
